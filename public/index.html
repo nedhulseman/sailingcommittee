@@ -1,4 +1,5 @@
-﻿<head>
+﻿
+<head>
     <base target="_top">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,12 +34,10 @@
 
     <br><br><br>
     <div id="map" style="width: 600px; height: 400px;"></div>
-    <p id="location-history" ></p>
+    <p id="location-history"></p>
 
 
-    <script>
-        
-        var socket = io();
+    <script>var socket = io();
         var users = 0;
         const location_history = document.getElementById('location-history');
 
@@ -55,10 +54,10 @@
         }
 
 
-        
+
 
         socket.on('connection', function () {
-            
+
         });
         socket.on('request-location', function () {
             navigator.geolocation.getCurrentPosition(success, error);
@@ -74,7 +73,7 @@
                 for (let i = 0; i < value.location_history.length; i++) {
                     location_history.innerHTML += value.location_history[i] + "<br>";
                 }
-                location_history.innerHTML += '<br><br>'; 
+                location_history.innerHTML += '<br><br>';
             }
         })
 
@@ -83,10 +82,10 @@
         const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
+        }).addTo(map);</script>
 
 
 
 
-    </script>
+
 </body>
