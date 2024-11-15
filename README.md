@@ -44,3 +44,7 @@ server {
 
 }
 ```
+## Resources
+- Deploying Node: https://www.sammeechward.com/deploying-full-stack-js-to-aws-ec2
+- Mysql: https://medium.com/@rohan_precise/step-by-step-guide-setting-up-and-connecting-mysql-on-ec2-ubuntu-instance-72c627e6c27f
+- Login forms: https://blog.logrocket.com/building-simple-login-form-node-js/
