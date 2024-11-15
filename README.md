@@ -4,7 +4,7 @@
 3. cd ~/sailingcommittee
 
 
-
+## Nginx
 `cd /etc/nginx/sites-available`
 ```
 server {
