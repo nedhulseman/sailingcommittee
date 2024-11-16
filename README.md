@@ -43,6 +43,11 @@ server {
     return 404; # managed by Certbot
 
 }
+## DB
+`mysql -u root -p`
+`CREATE DATABASE databasename;`
+
+
 ```
 ## Resources
 - Deploying Node: https://www.sammeechward.com/deploying-full-stack-js-to-aws-ec2
