@@ -58,6 +58,7 @@ primary key (id)
 
 ```
 ## Resources
+https://medium.com/@rajani103/deploying-nodejs-app-on-aws-ec2-instance-step-by-step-1b00f807cdce
 - Deploying Node: https://www.sammeechward.com/deploying-full-stack-js-to-aws-ec2
 - Mysql: https://medium.com/@rohan_precise/step-by-step-guide-setting-up-and-connecting-mysql-on-ec2-ubuntu-instance-72>
 - Login forms: https://blog.logrocket.com/building-simple-login-form-node-js/
